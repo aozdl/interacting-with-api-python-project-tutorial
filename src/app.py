@@ -13,10 +13,6 @@ import spotipy.util as util
 from dotenv import load_dotenv
 load_dotenv()
 
-
-CLIENT_ID="e91d0a739d0d48408e2bf4db46b75630"
-CLIENT_SECRET="e7d924981f0047e39e39d8f5428321ca"
-
 client_id = os.environ.get("CLIENT_ID")
 client_secret = os.environ.get("CLIENT_SECRET")
 client_credentials_manager=SpotifyClientCredentials(client_id, client_secret)
